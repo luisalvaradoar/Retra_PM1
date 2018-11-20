@@ -33,7 +33,7 @@ def Tema3(sucesiones):
 				
 				G += numpy.gcd.reduce(lista_A)
 
-	return(G)
+	return(G % (10**9 + 7))
 
 
 def main():
